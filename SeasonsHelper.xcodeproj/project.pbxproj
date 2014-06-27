@@ -22,6 +22,13 @@
 		0AB24A04195DDA2A0008BAD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB249E3195DDA290008BAD1 /* UIKit.framework */; };
 		0AB24A0C195DDA2A0008BAD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AB24A0A195DDA2A0008BAD1 /* InfoPlist.strings */; };
 		0AB24A0E195DDA2A0008BAD1 /* SeasonsHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB24A0D195DDA2A0008BAD1 /* SeasonsHelperTests.m */; };
+		0AB24A18195DDD7D0008BAD1 /* wizardhat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB24A17195DDD7D0008BAD1 /* wizardhat.png */; };
+		0AB24A1A195DDD8C0008BAD1 /* plusminus.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB24A19195DDD8C0008BAD1 /* plusminus.png */; };
+		0AB24A1C195DDDDA0008BAD1 /* star_gold_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB24A1B195DDDDA0008BAD1 /* star_gold_256.png */; };
+		0AB24A1E195DDE030008BAD1 /* Amethyst.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB24A1D195DDE030008BAD1 /* Amethyst.png */; };
+		0AB24A20195DF30F0008BAD1 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB24A1F195DF30E0008BAD1 /* player.png */; };
+		0AB24A22195DF3210008BAD1 /* players_num.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB24A21195DF3210008BAD1 /* players_num.png */; };
+		0AB24A26195DF7A30008BAD1 /* player1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB24A25195DF7A30008BAD1 /* player1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,13 @@
 		0AB24A09195DDA2A0008BAD1 /* SeasonsHelperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeasonsHelperTests-Info.plist"; sourceTree = "<group>"; };
 		0AB24A0B195DDA2A0008BAD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0AB24A0D195DDA2A0008BAD1 /* SeasonsHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeasonsHelperTests.m; sourceTree = "<group>"; };
+		0AB24A17195DDD7D0008BAD1 /* wizardhat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizardhat.png; sourceTree = "<group>"; };
+		0AB24A19195DDD8C0008BAD1 /* plusminus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusminus.png; sourceTree = "<group>"; };
+		0AB24A1B195DDDDA0008BAD1 /* star_gold_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_gold_256.png; sourceTree = "<group>"; };
+		0AB24A1D195DDE030008BAD1 /* Amethyst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Amethyst.png; sourceTree = "<group>"; };
+		0AB24A1F195DF30E0008BAD1 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		0AB24A21195DF3210008BAD1 /* players_num.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = players_num.png; sourceTree = "<group>"; };
+		0AB24A25195DF7A30008BAD1 /* player1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +143,13 @@
 		0AB249E6195DDA290008BAD1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0AB24A21195DF3210008BAD1 /* players_num.png */,
+				0AB24A25195DF7A30008BAD1 /* player1.png */,
+				0AB24A1F195DF30E0008BAD1 /* player.png */,
+				0AB24A1D195DDE030008BAD1 /* Amethyst.png */,
+				0AB24A1B195DDDDA0008BAD1 /* star_gold_256.png */,
+				0AB24A19195DDD8C0008BAD1 /* plusminus.png */,
+				0AB24A17195DDD7D0008BAD1 /* wizardhat.png */,
 				0AB249E7195DDA290008BAD1 /* SeasonsHelper-Info.plist */,
 				0AB249E8195DDA290008BAD1 /* InfoPlist.strings */,
 				0AB249EB195DDA290008BAD1 /* main.m */,
@@ -232,9 +253,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB249F6195DDA290008BAD1 /* Main_iPad.storyboard in Resources */,
+				0AB24A1C195DDDDA0008BAD1 /* star_gold_256.png in Resources */,
+				0AB24A20195DF30F0008BAD1 /* player.png in Resources */,
 				0AB249FB195DDA290008BAD1 /* Images.xcassets in Resources */,
+				0AB24A1A195DDD8C0008BAD1 /* plusminus.png in Resources */,
+				0AB24A18195DDD7D0008BAD1 /* wizardhat.png in Resources */,
+				0AB24A26195DF7A30008BAD1 /* player1.png in Resources */,
 				0AB249F3195DDA290008BAD1 /* Main_iPhone.storyboard in Resources */,
+				0AB24A1E195DDE030008BAD1 /* Amethyst.png in Resources */,
 				0AB249EA195DDA290008BAD1 /* InfoPlist.strings in Resources */,
+				0AB24A22195DF3210008BAD1 /* players_num.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +422,7 @@
 				GCC_PREFIX_HEADER = "SeasonsHelper/SeasonsHelper-Prefix.pch";
 				INFOPLIST_FILE = "SeasonsHelper/SeasonsHelper-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,6 +436,7 @@
 				GCC_PREFIX_HEADER = "SeasonsHelper/SeasonsHelper-Prefix.pch";
 				INFOPLIST_FILE = "SeasonsHelper/SeasonsHelper-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
